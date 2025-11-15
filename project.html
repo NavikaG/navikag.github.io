@@ -1,159 +1,38 @@
 <!DOCTYPE html>
-    <html?\>
-        <head>
-           <title>Personal Website</title> 
-           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
-        </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects – Navika Gupta</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
 
-        <script>
+<body>
 
-            function mouseOver(x){
-                x.style.opacity=0.3;
+  <nav class="navbar">
+    <div class="logo">Navika</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="project.html" class="active">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+    </ul>
+  </nav>
 
-            }
+  <main>
+    <h1>My Projects</h1>
 
-            function mouseOut(x){
-                x.style.opacity=1;
-            }
-        
-        </script>
+    <div class="project-card">
+      <h2>Project 1</h2>
+      <p>Description of your first cool project!</p>
+    </div>
 
+    <div class="project-card">
+      <h2>Project 2</h2>
+      <p>Description of your second cool project!</p>
+    </div>
 
+  </main>
 
-
-        <body>
-            <div class="heading">
-                <h1 style= "font-size: 300%; color: lightpink;">
-                    Navika Gupta
-                </h1>
-
-            </div>
-
-            <hr>
-
-            <div class="navigation">
-
-                <nav class="navbar">
-                    <a class="navbar-item" href="./index.html"> About Me</a>
-    
-                    <a class="navbar-item" href="./project.html"> Projects</a>
-    
-                    <a  class="navbar-item" href="./resume.html"> Resume</a>
-    
-                </nav>
-    
-
-
-            </div>
-
-            <hr>
-
-            <div class="subheading">
-                <h3><u>Projects</u></h3>
-            </div>
-
-
-            <div class = "columns">
-                <div class ="column">
-                    <!-- column -->
-                    <div class= "card">
-                        <div class="card-image" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
-                            <figure class = ".image is-4by3">
-                                <a href = "https://github.com/NavikaG/H20ceans" target="_blank"> <img src = "./H2Oceans.jpeg" alt="Placeholder image - H2Oceans" width="300" height="250" >  </a>
-                            </figure>
-    
-                        </div>
-
-                        <div class ="card-content">
-                            <div class = "media">
-                              <div class = "media-content" >
-                                  <p class = "title is-4"> H2Oceans </p>
-                              </div> 
-                            </div>
-                            
-                            <div class = "content">
-                                Cruzhacks 2020 project tracking changes in keystone species <br>
-                            </div>
-
-                        </div>
-    
-                        
-                    </div>
-                </div>
-
-
-
-
-                <div class ="column">
-                    <!-- column -->
-                    <div class= "card">
-                        <div class="card-image" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
-                            <figure class = ".image is-4by3">
-                                <a href = "https://github.com/NavikaG/H20ceans" target="_blank"> <img src = "./H2Oceans.jpeg" alt="Placeholder image - H2Oceans" width="300" height="250" >  </a>
-                            </figure>
-    
-                        </div>
-
-                        <div class ="card-content">
-                            <div class = "media">
-                              <div class = "media-content" >
-                                  <p class = "title is-4"> H2Oceans </p>
-                              </div> 
-                            </div>
-                            
-                            <div class = "content">
-                                Cruzhacks 2020 project tracking changes in keystone species <br>
-                            </div>
-
-                        </div>
-    
-                        
-                    </div>
-                </div>
-
-
-
-
-
-
-
-
-                <div class ="column">
-                    <!-- column -->
-                    <div class= "card">
-                        <div class="card-image" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
-                            <figure class = ".image is-4by3">
-                                <a href = "https://devpost.com/software/h20ceans" target="_blank"> <img src = "./H2Oceans.jpeg" alt="Placeholder image - H2Oceans" width="300" height="250" >  </a>
-                            </figure>
-    
-                        </div>
-
-                        <div class ="card-content">
-                            <div class = "media">
-                              <div class = "media-content" >
-                                  <p class = "title is-4"> H2Oceans </p>
-                              </div> 
-                            </div>
-                            
-                            <div class = "content">
-                                Cruzhacks 2020 project tracking changes in keystone species <br>
-                            </div>
-
-                        </div>
-    
-                        
-                    </div>
-
-                    
-                </div>
-
-
-
-
-                
-
-    
-            </div>
-
-        </body>
-    </html>
+</body>
+</html>
